@@ -1,0 +1,66 @@
+body {
+	background-image: url("background.JPG");
+    background-size: cover;
+    background-position: center;
+}
+
+.login_div1 , .login_div2 {
+	background: rgb(221, 221, 221);
+	padding: 10px;
+	float: none;
+	border-radius: 15px;
+}
+
+#player1_name , #player2_name {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#logo {
+    height: 200px;
+}
+
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #f74382;
+}
+
+div, #add_user, h4, span {
+    font-family: 'Raleway', sans-serif;
+}
+
+.add_user {
+    background-color: rgb(253, 108, 132);
+    width: 20%;
+    font-size: 18px;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.add_user:hover {
+    opacity: 1;
+    color: #ffffff;
+}
+
+#output {
+	background: rgb(221, 221, 221);
+	border-radius: 10px;
+	border-top: 10px solid #fd6c84;
+	padding: 10px;
+	float: none;
+    text-align: left;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#number1_input, #number2_input {
+    width: 50%;
+}
+
+#player1_score, #player2_score {
+    font-size: 16px;
+}

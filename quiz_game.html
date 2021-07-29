@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project 92</title>
+<!--Icon-->
+<link rel="icon" href="Icon.png">
+<link rel="shortcut-icon" href="Icon.png">
+<!--font-family: 'Cinzel Decorative', cursive;-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+<!--font-family: 'Raleway', sans-serif;-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+<!--Bootstrap links-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h4 id="player1_name"></h4> <span id="player1_score"></span>
+    <br>
+    <h4 id="player2_name"></h4> <span id="player2_score"></span>
+
+    <div class="container">
+        <center>
+            <h1>Math Quiz</h1>
+            <img id="logo" class="img-responsive" src="logo.jpg">
+
+            <h4 id="player_question"></h4>
+            <br>
+            <h4 id="player_answer"></h4>
+            <br>
+
+            <div id="output" class="col-lg-6"></div>
+            <br>
+
+            <label>Number 1</label>
+            <input type="number" id="number1_input" class="form-control" placeholder="Number 1">
+            <br>
+
+            <label>Number 2</label>
+            <input type="number" id="number2_input" class="form-control" placeholder="Number 2">
+            <br>
+
+            <button style="margin-bottom: 20px;" class="btn btn-large add_user" onclick="send()">Send ➤</button>
+        </center>
+    </div>
+
+    <script src="quiz_game.js"></script>
+</body>
+</html>
